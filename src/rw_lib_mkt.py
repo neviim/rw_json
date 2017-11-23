@@ -7,14 +7,19 @@ import json
 
 # Classe para gravar e ler variaveis em um arquivo json.
 class RWstatus_variaveis(object):
-    """ docstring for RWstatus_variaveis.
+    ''' docstring for RWstatus_variaveis.
             Uso:
                 status = RWstatus_variaveis(<path>, <nome_arquivo>)
 
                 - Esta class pode ser usada como biblioteca e ser importada.
 
-                    from rw_v02-json import RWstatus_variaveis
-    """
+                    from rw_lib_mkt import RWstatus_variaveis
+                    ou
+                    from rw_lib_mkt import RWstatus_variaveis as rw
+
+                    rwStatus = RWstatus_variaveis('../data')
+                    arquivo  = 'rw_jads'
+    '''
     def __init__(self, path='../data'):
         ''' parametros:
                 path = caminho do diretorio em de encontra o arquivo.

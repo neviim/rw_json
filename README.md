@@ -1,2 +1,3 @@
 # rw_json
-classe para gerenciar de forma simples o status de variáveis armazenadas em formato json
+
+Biblioteca para criar uma gestão de variáveis armazenadas em arquivos json 
